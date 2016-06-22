@@ -13,7 +13,7 @@
 </style>
 </head>
 <body>
-<!-- <div class="con"> -->
+<div class="con">
 <div class="index-max-box">
 {if !$subscribe}
 <div class="ect-attention dis-box" >
@@ -46,7 +46,7 @@
 
 </script>
 <div class="index-main comWidth">
-    <!-- <div class="swiper-container">
+    <div class="swiper-container">
       <div class="swiper-wrapper">
         {insert name='ads' id=255 num=3}
       </div>
@@ -54,10 +54,12 @@
     </div>
     <div class="index-menu">
     <ul class="index-menu-ul">
+    <!--{foreach from=$navigator item=nav}-->
     <li class="fl"><a href="{$nav.url}" {if $nav.opennew eq 1}target = "_blank"{/if}><img src="{$nav.pic}" /></a><a class="index-menu-text" href="{$nav.url}" {if $nav.opennew eq 1}target = "_blank"{/if}>{$nav.name}</a>
-	</li>
+	  </li>
+    <!--{/foreach}-->
     </ul>
-    </div> -->
+    </div>
 
   <div class="index-recom">
       <div class="index-recom-left fl">
@@ -67,7 +69,7 @@
         {insert name='ads' id=258 num=2}
       </div>
   </div>
- <!--  <div class="index-theme">
+  <!-- <div class="index-theme">
   	<ul>
     	{insert name='ads' id=256 num=4}
     </ul>
