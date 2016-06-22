@@ -61,14 +61,14 @@
     </ul>
     </div>
 
-  <div class="index-recom">
+ <!--  <div class="index-recom">
       <div class="index-recom-left fl">
         {insert name='ads' id=257 num=1}
       </div>
       <div class="index-recom-right fr">
         {insert name='ads' id=258 num=2}
       </div>
-  </div>
+  </div> -->
   <!-- <div class="index-theme">
   	<ul>
     	{insert name='ads' id=256 num=4}
