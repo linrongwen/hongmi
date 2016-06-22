@@ -26,14 +26,14 @@
 	</div>
 </div>
 {/if}
-<!-- <header class="index-header comWidth">
+<header class="index-header comWidth">
   <i class="index-header-menu iconfont fl" onclick="window.location = '{:url('category/top_all')}'">&#xe627;</i>
   <div class="index-search-box fl">
     <input type="text" class="index-search-input" placeholder="商品搜索" onclick="openSearch();">
     <a href="javascript:void(0)" id="translateVoice" style="display:None;"><i class="index-search-sound iconfont fr">&#xe623;</i></a>
   </div>
   <a href="javascript:openSearch()"><i class="index-header-right iconfont fr">&#xe603;</i></a>
-</header> -->
+</header>
 </div>
 <!--立即关注-->
 <!-- <div class="index-guanz-t"> 
@@ -47,9 +47,9 @@
 </script>
 <div class="index-main comWidth">
     <div class="swiper-container">
-      <!-- <div class="swiper-wrapper">
+      <div class="swiper-wrapper">
         {insert name='ads' id=255 num=3}
-      </div> -->
+      </div>
       <div class="swiper-pagination"></div>
     </div>
     <div class="index-menu">
@@ -61,84 +61,31 @@
     </ul>
     </div>
 
-  <!-- <div class="index-recom">
+  <div class="index-recom">
       <div class="index-recom-left fl">
         {insert name='ads' id=257 num=1}
       </div>
       <div class="index-recom-right fr">
         {insert name='ads' id=258 num=2}
       </div>
-  </div> -->
-  <!-- <div class="index-theme">
+  </div>
+  <div class="index-theme">
   	<ul>
     	{insert name='ads' id=256 num=4}
     </ul>
-  </div> -->
+  </div>
 
-  <!-- <div class="index-theme" style="display:none">
-      <ul class="index-more-list"> -->
+  <div class="index-theme" style="display:none">
+      <ul class="index-more-list">
       <!-- #BeginLibraryItem "/library/cat_goods.lbi" --><!-- #EndLibraryItem -->
-     <!--  </ul>
-  </div> -->
+      </ul>
+  </div> 
 
-	<div class="index-more">
-  	<div class="index-more-icon">
-      	<span>床上用品高端系列</span>
-      </div>
-    <ul>
-      {insert name='ads' id=257 num=1}
-    </ul>
-  </div>
-
-  <div class="index-more">
-    <div class="index-more-icon">
-        <span>床上用品低端系列</span>
-      </div>
-
-    <ul>
-      {insert name='ads' id=257 num=1}
-    </ul>
-  </div>
-
-  <div class="index-more">
-    <div class="index-more-icon">
-        <span>被芯枕芯系列</span>
-      </div>
-    <ul>
-      {insert name='ads' id=257 num=1}
-    </ul>
-  </div>
-
-  <div class="index-more">
-    <div class="index-more-icon">
-        <span>大学生三件套/幼儿园套件</span>
-      </div>
-    <ul>
-      {insert name='ads' id=257 num=1}
-    </ul>
-  </div>
-
-  <div class="index-more">
-    <div class="index-more-icon">
-        <span>蚊帐草席系列</span>
-      </div>
-    <ul>
-      {insert name='ads' id=257 num=1}
-    </ul>
-  </div>
-
-  <div class="index-more">
-    <div class="index-more-icon">
-        <span>席梦思系列</span>
-      </div>
-    <ul>
-      {insert name='ads' id=257 num=1}
-    </ul>
-  </div>
-     <!--  <ul class="index-more-list" id="J_ItemList">
+	
+      <ul class="index-more-list" id="J_ItemList">
         <div class="single_item"></div>
         <a href="javascript:;" style="text-align:center" class="get_more"></a>
-      </ul> -->
+      </ul>
   
 </div>
 
