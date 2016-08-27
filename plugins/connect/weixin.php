@@ -81,8 +81,8 @@ class weixin {
         $config['token'] = $this->token;
         $config['appid'] = $this->appid;
         $config['appsecret'] = $this->appsecret;
-
-        $this->weObj = new Wechat($config);
+        
+	$this->weObj = new Wechat($config);
     }
 
     /**
