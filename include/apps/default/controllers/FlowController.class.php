@@ -968,6 +968,8 @@ class FlowController extends CommonController {
      *  提交订单
      */
     public function done() {
+	print "xxxxxxhah1111111222222333333";
+	return;
         /* 取得购物类型 */
         $flow_type = isset($_SESSION ['flow_type']) ? intval($_SESSION ['flow_type']) : CART_GENERAL_GOODS;
         /* 检查购物车中是否有商品 */

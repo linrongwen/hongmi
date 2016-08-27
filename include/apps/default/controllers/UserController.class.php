@@ -1948,7 +1948,7 @@ class UserController extends CommonController {
      * 第三方登录
      */
     public function third_login() {
-        $type = I('get.type');
+	$type = I('get.type');
         $file = ROOT_PATH . 'plugins/connect/' . $type . '.php';
         if (file_exists($file)) {
             include_once ($file);
@@ -1967,7 +1967,7 @@ class UserController extends CommonController {
         }
         $obj = new $type($info);
         if ($_GET['code'] && $_GET['code'] != '') {
-            // 授权成功 返回登录
+	    // 授权成功 返回登录
             if ($rs = $obj->call_back($info, $url, $_GET['code'], $type)) {
                 $jump_url = empty($this->back_act) ? url('index') : $this->back_act;
                 if(is_array($rs)){
@@ -1982,7 +1982,7 @@ class UserController extends CommonController {
         } else {
             // 开始授权登录  
             $url = $obj->act_login($info, $url);
-            ecs_header("Location: " . $url . "\n");
+	    ecs_header("Location: " . $url . "\n");
             exit();
         }
     }
